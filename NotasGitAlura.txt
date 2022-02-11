@@ -46,3 +46,8 @@ $
 
 ////////////////////////////////////https://devhints.io/git-log. encontrar informacion de comandos de git
 
+///////////////////////////////// IGNORANDO ARCHIVOS///////////////
+
+Se crea archivo .gitignore --- 
+para agregar carpetas --- solo se coloca el nombre de la carpetas
+para agregar archivo /nombreArchivo/
