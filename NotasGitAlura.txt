@@ -16,6 +16,33 @@ Date:   Fri Feb 11 09:16:32 2022 -0500
 
 Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
 $
+/////VER INFORMACION DE LOGS
+$ git log
+commit b4aab726f56fb64014a10800cefc65afb952288f (HEAD -> master)
+Author: AlexanderOspina <alex214_8@hotmail.com>
+Date:   Fri Feb 11 09:19:01 2022 -0500
+
+    Se agrego h2 sobre index.html
+
+commit 3ccaefcf9c4101f5dca6e18272d725c85f299e64
+Author: AlexanderOspina <alex214_8@hotmail.com>
+Date:   Fri Feb 11 09:16:32 2022 -0500
+
+    Creando archivos index.html
+
 
 
 ///MOFICAR CONFIGURACION LOCAL SOBRE INFORMACION DEL REPOSITORIO
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
+$ git config --local user.name "aospina"
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
+$ git config --local user.email "alexospinabedoya@gmail.com"
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
+$
+
+
+////////////////////////////////////https://devhints.io/git-log. encontrar informacion de comandos de git
+
