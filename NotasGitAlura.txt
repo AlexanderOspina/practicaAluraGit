@@ -51,3 +51,46 @@ $
 Se crea archivo .gitignore --- 
 para agregar carpetas --- solo se coloca el nombre de la carpetas
 para agregar archivo /nombreArchivo/
+
+//////////////////////CREAR UN SERVIDOR DE REPOSITORIO REMOTO 
+
+SE CREA UNA CARPETA
+C:\Users\Alexander Ospina\Documents\ALURA\RemoteServerGit
+
+-- SE EN BASH DE LA CARPETA SE INICIALIZA EL REPOSITORIO $ git init --bare
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/RemoteServerGit
+$ git init --bare
+Initialized empty Git repository in C:/Users/Alexander Ospina/Documents/ALURA/RemoteServerGit/
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/RemoteServerGit (BARE:master)
+$
+ 
+//////APUNTAR REPOSITORIO LOCAL AL REMOTO
+
+-- validar servidores remotos
+git Remote
+
+--- AGREGAR SERVIDOR REMOTO A REPOSITORIO
+
+$ git remote add servidorlocal "C:/Users/Alexander Ospina/Documents/ALURA/RemoteServerGit/"
+
+$ git remote
+servidorlocal -- 
+
+-------- validar direcciones del REPOSITORIO
+$ git remote -v
+servidorlocal   C:/Users/Alexander Ospina/Documents/ALURA/RemoteServerGit/ (fetch)  -- DE DONDE BAJAMOS LAS ACTUALIZACIONES
+servidorlocal   C:/Users/Alexander Ospina/Documents/ALURA/RemoteServerGit/ (push)   --DONDE ENVIAMOS LAS ACTUALIZACIONES
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
+$
+
+
+/////////////////CLONAR REPOSITORIO
+            ----ojo con el incio de la url
+git clone /c/Users/Alexander Ospina/Documents/ALURA/RemoteServerGit/
+
+
+
+
