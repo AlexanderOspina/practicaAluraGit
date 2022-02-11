@@ -1,0 +1,21 @@
+////CONFIGURACION INCIAL DE GIT
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
+$ git log
+commit b4aab726f56fb64014a10800cefc65afb952288f (HEAD -> master)
+Author: AlexanderOspina <alex214_8@hotmail.com>
+Date:   Fri Feb 11 09:19:01 2022 -0500
+
+    Se agrego h2 sobre index.html
+
+commit 3ccaefcf9c4101f5dca6e18272d725c85f299e64
+Author: AlexanderOspina <alex214_8@hotmail.com>
+Date:   Fri Feb 11 09:16:32 2022 -0500
+
+    Creando archivos index.html
+
+Alexander Ospina@LAPTOP-NQL3SSC2 MINGW64 ~/Documents/ALURA/CursoGIT (master)
+$
+
+
+///MOFICAR CONFIGURACION LOCAL SOBRE INFORMACION DEL REPOSITORIO
